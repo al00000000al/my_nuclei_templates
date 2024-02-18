@@ -3,6 +3,7 @@ info:
   name: Wordpress Path Disclosure
   author: trainzment
   severity: low
+  tags: wordpress,fpd
 
 http:
   - method: GET
