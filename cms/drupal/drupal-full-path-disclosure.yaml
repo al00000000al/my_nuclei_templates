@@ -3,6 +3,7 @@ info:
   name: Drupal Full Path Disclosure
   author: trainzment
   severity: info
+  tags: drupal,exposure,fpd
 
 http:
   - method: GET
