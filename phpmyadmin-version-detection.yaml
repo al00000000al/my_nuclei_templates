@@ -22,5 +22,5 @@ http:
       - type: regex
         part: body
         regex:
-          - 'phpMyAdmin\s(\d+\.\d+\.\d+\.\d+)'
+          - 'phpMyAdmin\s(.*)\sdocumentation'
         group: 1
