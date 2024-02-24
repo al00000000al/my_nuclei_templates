@@ -20,6 +20,7 @@ http:
       - "{{BaseURL}}/bitrix/modules/updater.log"
       - "{{BaseURL}}/bitrix/modules/updater_partner.log"
       - "{{BaseURL}}/bitrix_server_test.log"
+      - "{{BaseURL}}/bitrix/updates/updater.log"
 
     matchers:
       - type: status
