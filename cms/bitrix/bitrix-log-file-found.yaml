@@ -20,9 +20,14 @@ http:
       - "{{BaseURL}}/bitrix/modules/updater.log"
       - "{{BaseURL}}/bitrix/modules/updater_partner.log"
       - "{{BaseURL}}/bitrix_server_test.log"
-      - "{{BaseURL}}/bitrix/updates/updater.log"
 
+    matchers-condition: and
     matchers:
       - type: status
         status:
           - 200
+      - type: word
+        part: header
+        words:
+          - "Last-Modified:"
+
