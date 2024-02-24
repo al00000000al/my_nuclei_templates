@@ -1,7 +1,7 @@
 id: bitrix-log-file-found
 info:
   name: Bitrix Log File Found
-  author: traizment
+  author: trainzment
   severity: info
   tags: bitrix
 
