@@ -3,7 +3,7 @@ info:
   name: smf-path-extraction
   author: trainzment
   severity: low
-  tags: drupal,exposure,fpd,smf
+  tags: exposure,fpd,smf
 
 http:
   - method: GET
